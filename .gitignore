@@ -73,3 +73,47 @@ crashlytics-build.properties
 
 # Vuforia assets
 /Assets/Editor/Migration/com.ptc.vuforia.engine-10.15.4.tgz
+/Assets/Editor/Migration/AddVuforiaEnginePackage.cs
+/Assets/Editor/Migration/AddVuforiaEnginePackage.cs.meta
+/Assets/Editor/Migration/com.ptc.vuforia.engine-10.15.4.tgz.meta
+
+
+
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Vuforia specific
+/Assets/Vuforia/
+
+# macOS specific
+.DS_Store
+
+# Visual Studio Code specific
+.vscode/
+*.code-workspace
+
+# JetBrains Rider specific
+.idea/
+*.sln.iml
+
+# Compiled files
+*.apk
+*.unitypackage
+*.zip
+*.rar
+*.7z
+
+# Miscellaneous
+*.tmp
+*.swp
+*.bak
+*.cache
+
+# Ignore Vuforia package lock file
+/ProjectSettings/ProjectVersion.txt
