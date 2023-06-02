@@ -432,7 +432,7 @@ PrefabInstance:
       objectReference: {fileID: 1780425645}
     - target: {fileID: 6486305108495935545, guid: 7af4251da2e1a3848a41117110c9c523, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ArEye
+      value: AR
       objectReference: {fileID: 0}
     - target: {fileID: 6486305108495935551, guid: 7af4251da2e1a3848a41117110c9c523, type: 3}
       propertyPath: m_Name
@@ -562,7 +562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5411471057396585044, guid: a78d6c53a101b194c838ada7533f9ac6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ArDisc
+      value: AR
       objectReference: {fileID: 0}
     - target: {fileID: 5411471057396585045, guid: a78d6c53a101b194c838ada7533f9ac6, type: 3}
       propertyPath: m_AnchorMax.y
@@ -684,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6496589929140661454, guid: a78d6c53a101b194c838ada7533f9ac6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ArSolar
+      value: AR
       objectReference: {fileID: 0}
     - target: {fileID: 8326633836365402718, guid: a78d6c53a101b194c838ada7533f9ac6, type: 3}
       propertyPath: m_AnchorMax.y

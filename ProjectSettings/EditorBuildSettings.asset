@@ -12,12 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: b55e012bbc5f572409b632aadd932ec0
   - enabled: 1
-    path: Assets/Scenes/ArEye.unity
-    guid: eae2e6ffa605f6944a1ea5fe9d23535a
-  - enabled: 1
-    path: Assets/Scenes/ArSolar.unity
-    guid: b2793d269cde0fc48b43d5fad889088f
-  - enabled: 1
-    path: Assets/Scenes/ArDisc.unity
+    path: Assets/Scenes/AR.unity
     guid: 6c9c36e51df106b44a5d9cdd69648bd8
   m_configObjects: {}
