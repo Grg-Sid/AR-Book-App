@@ -3,22 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    int sceneIndex; 
-    int currentIndex;
-
+    int sceneIndex, currentIndex; 
     private void Start()
     {
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
         currentIndex = sceneIndex;
-        //Debug.Log("Working");
+        //Time.fixedDeltaTime = 1/2;
     }
 
-    void Update()
+    private void Update()
     {
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("Esc was pressed");
+            //Debug.Log("Esc was pressed");
             if (currentIndex == 0)
             {
                 Application.Quit();
