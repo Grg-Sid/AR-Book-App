@@ -15,7 +15,7 @@ AR_BOOK is an augmented reality (AR) project that combines the concept of an aud
 - Unity: Make sure you have Unity installed on your computer. You can download the latest version of Unity from the official Unity website.
 - Vuforia Engine SDK: You will need to have Vuforia Engine SDK integrated into your Unity project. Follow the Vuforia documentation for installation and setup instructions.
 
-### Installation
+### Setup
 
 1. Clone or download the AR_BOOK project repository.
 2. Open Unity and navigate to the project folder.
