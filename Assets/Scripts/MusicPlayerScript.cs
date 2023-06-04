@@ -2,22 +2,32 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MusicPlayerScript : MonoBehaviour
 {
-    public AudioSource AudioSource;
+    private AudioSource audioSource;
 
     public Slider volumeSlider;
 
     private float musicVolume = 1f;
     void Start()
     {
-        AudioSource.Play();
-        musicVolume = PlayerPrefs.GetFloat("volume");
-        AudioSource.volume = musicVolume;
-        volumeSlider.value = musicVolume;
+        Debug.Log("player");
+        GameObject targetObject = GameObject.FindGameObjectWithTag("GameMusic");
+
+        if(targetObject != null)
+        {
+            Debug.Log(targetObject.name);
+            audioSource = targetObject.GetComponent<AudioSource>();
+            if (audioSource != null)
+            {
+                musicVolume = PlayerPrefs.GetFloat("volume");
+                audioSource.volume = musicVolume;
+                volumeSlider.value = musicVolume;
+            }
+        }            
     }
 
     void Update()
     {
-        AudioSource.volume = musicVolume;
+        audioSource.volume = musicVolume;
         PlayerPrefs.SetFloat("volume", musicVolume);
     }
 
