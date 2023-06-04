@@ -33,19 +33,6 @@ AR_BOOK is an augmented reality (AR) project that combines the concept of an aud
 5. When the target image goes away or is no longer visible, the audio will pause.
 6. Continue scanning different book pages to explore and interact with different 3D models and audio content.
 
-## Contributing
-
-Contributions to the AR_BOOK project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue in the project repository.
-
 ## License
 
 The AR_BOOK project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Acknowledgements
-
-- This project was developed using Unity and the Vuforia Engine SDK.
-- Special thanks to the creators of Vuforia Engine SDK for their powerful AR technology.
-
-## Contact
-
-For any inquiries or questions, please contact the AR_BOOK development team at arbook@example.com.
