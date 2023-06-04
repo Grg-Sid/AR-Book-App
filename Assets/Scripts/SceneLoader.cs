@@ -9,7 +9,8 @@ public class SceneLoader : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene(sceneIndex); 
+            Debug.Log(SceneManager.GetActiveScene().buildIndex);
+            GoBack(); 
         }
     }
     public void GoBack()

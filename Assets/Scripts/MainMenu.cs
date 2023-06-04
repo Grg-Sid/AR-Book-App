@@ -39,13 +39,11 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex + 1);
         currentIndex = sceneIndex + 1;
-        Debug.Log(currentIndex);
     }
     public void SceneLoaderPrevious()
     {
         SceneManager.LoadScene(sceneIndex - 1);
         currentIndex = sceneIndex - 1;
-        Debug.Log(currentIndex);
     }
     public void QuitApp()
     {
